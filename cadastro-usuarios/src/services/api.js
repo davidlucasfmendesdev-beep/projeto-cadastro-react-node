@@ -1,8 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'http://localhost:4000'
+  baseURL: 'http://projeto-cadastro-react-node.onrender.com/' // <-- O seu link do Render aqui!
 })
-
 
 export default api
