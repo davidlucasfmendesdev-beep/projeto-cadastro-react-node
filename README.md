@@ -1,14 +1,11 @@
 # 📝 Sistema de Cadastro de Usuários - Fullstack
 
-Uma aplicação completa (Frontend e Backend) para gerenciamento de usuários, construída do zero para consolidar conhecimentos práticos em desenvolvimento web.
+Uma aplicação completa (Frontend e Backend) para gerenciamento de usuários, construída do zero para consolidar meus conhecimentos práticos em desenvolvimento web.
 
-🟢 **Status: Projeto Online!** 
+🟢 **Projeto Online!** 
 👉 **[Clique aqui para acessar o site e testar o cadastro na prática](https://projeto-cadastro-react-node.vercel.app/)**
 
-Uma aplicação completa (Frontend e Backend) para gerenciamento de usuários, construída do zero para consolidar conhecimentos práticos em desenvolvimento web.
-
 <img width="1918" height="872" alt="image" src="https://github.com/user-attachments/assets/21b70000-1a82-4fb9-aa0a-1bf95aa99f27" />
-
 
 
 ## 🚀 Sobre o Projeto
