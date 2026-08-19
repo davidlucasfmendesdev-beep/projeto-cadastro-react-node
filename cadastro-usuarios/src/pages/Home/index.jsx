@@ -10,6 +10,7 @@ function Home() {
   const inputName = useRef();
   const inputAge = useRef();
   const inputEmail = useRef();
+  const inputpais = useRef();
 
   // 2. Função para buscar os usuários
   async function getUsers() {
@@ -26,13 +27,15 @@ function Home() {
     await api.post('/users', {
       nome: inputName.current.value,
       idade: inputAge.current.value,
-      email: inputEmail.current.value
+      email: inputEmail.current.value,
+      pais: inputpais.currenet.value
     });
 
     // Limpa os campos depois de cadastrar
     inputName.current.value = "";
     inputAge.current.value = "";
     inputEmail.current.value = "";
+    inputpais.current.value = "";
 
     // Atualiza a lista na tela
     getUsers();
@@ -63,6 +66,7 @@ function Home() {
         <input placeholder="Nome" type="text" ref={inputName} />
         <input placeholder="Idade" type="number" ref={inputAge} />
         <input placeholder="E-mail" type="email" ref={inputEmail} />
+        <input placeholder="País" type="text" ref={inputpais} />
         <button type="submit">Cadastrar</button>
       </form>
 
